@@ -81,7 +81,7 @@ img{
 .about{
    min-height:500px;
    height:auto;
-    margin-top:150px;
+    margin-top:50px;
     padding:60px;
     display: flex;
     flex-direction: column;
@@ -274,8 +274,9 @@ footer{
     text-align: center;
     font-size: 1.2em;
     font-weight: 500;
-    /* position: relative;
-    bottom:0px; */
+    position: relative;
+    bottom:0px;
+   
    width:100%;
  }
 
