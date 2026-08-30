@@ -11,7 +11,7 @@
 html {
   scroll-behavior: smooth;
   /* Aapke navbar ki jitni height hai (e.g. 80px ya 100px), utna space de dein */
-  scroll-padding-top: 100px; 
+  scroll-padding-top: 90px; 
 }
 header{
     height: 200px;
@@ -111,7 +111,7 @@ img{
 .skills{
     min-height: 250px;
     height: auto;
-    margin: 60px 50px;
+    margin: 60px 100px;
     font-size: 1.2em;
     line-height: 50px;
    
@@ -122,7 +122,7 @@ img{
     height: auto;
     width:100%;
     display: flex;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #j{
@@ -274,9 +274,9 @@ footer{
     text-align: center;
     font-size: 1.2em;
     font-weight: 500;
-    position: relative;
-    bottom:0px;
-    width:100vh;
+    /* position: relative;
+    bottom:0px; */
+   width:100%;
  }
 
  .nav a:hover {
