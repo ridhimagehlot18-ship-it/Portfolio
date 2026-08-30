@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: popins;
+   
+}
+
+
+html {
+  scroll-behavior: smooth;
+  /* Aapke navbar ki jitni height hai (e.g. 80px ya 100px), utna space de dein */
+  scroll-padding-top: 100px; 
+}
+header{
+    height: 200px;
+}
+.nav{
+    height: 50px;
+    margin:50px 30px;
+    position: fixed;
+}
+
+.nav h5{
+    font-size: 1.2em;
+}
+
+.aTag{
+    position: relative;
+    left:1050px;
+   
+}
+.aTag a{
+    margin-right: 70px;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+} 
+.anchor{
+    min-height: 100px;
+    width:120px;
+  display: inline-block;
+   position: relative;
+   left:85%;
+   top:100px;
+   line-height: 30px;
+   background-color: rgba(255,255,255,0.1);
+   border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px) scale(0.95);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+ 
+}
+
+.anchor:hover{
+    box-shadow: 0px 0px 3px white;
+}
+.anchor a{
+    font-size: 1.2em;
+     border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.anchor a:hover{
+    box-shadow: 0px 0px 3px white;
+}
+img{
+    height:300px;
+    width: 300px;
+    border:2px solid #f39c12;
+    border-radius: 50%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about{
+   min-height:500px;
+   height:auto;
+    margin-top:150px;
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+
+.about p{
+    margin:20px 20px;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+.academics{
+    min-height: 400px;
+    height: auto;
+    position: relative;
+    width:500px;
+    margin-top:50px;
+    margin-left:100px;
+    font-size: 1.2em;
+    bottom: 50px;
+    line-height: 50px;
+}
+
+.skills{
+    min-height: 250px;
+    height: auto;
+    margin: 60px 50px;
+    font-size: 1.2em;
+    line-height: 50px;
+   
+}
+
+.para{
+    min-height: 250px;
+    height: auto;
+    width:100%;
+    display: flex;
+    margin-left: 50px;
+}
+
+#j{
+    height: 100px;
+    width: 200px;
+    /* background-color: rgba(255,0,0,0.5); */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+#h{
+     height: 100px;
+    width: 200px;
+    /* background-color: rgba(0,255,0,0.5); */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+#c{
+      height: 100px;
+    width: 200px;
+    /* background-color: rgba(0,0,255,0.5); */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+#js{
+     height: 100px;
+    width: 200px;
+    /* background-color: rgba(120,120,120,0.5); */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+#nj{
+     height: 100px;
+    width: 200px;
+    /* background-color: rgba(170,130,50,0.5); */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+#ej{
+    height: 100px;
+    width: 200px;
+    /* background-color: rgba(170,130,255,0.5); */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+#git{
+    height: 100px;
+    width: 200px;
+    /* background-color: rgba(255,255,0,0.5); */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+.contact{
+    min-height: 800px;
+    width:400px;
+    position: relative;
+    left:40%;
+    font-size: 1.2em;
+    line-height: 50px;
+
+}
+
+.contact h4{
+    text-align: auto;
+    margin:5px 90px;
+}
+
+.form{
+    min-height: 450px;
+    width:300px;
+    text-align: center;
+      margin-bottom:60px ;
+}
+
+.form input{
+    background-color: white;
+    color: black;
+    height:30px;
+    width:70%;
+    border:10px;
+    font-weight: 500;
+    font-size: 1.0em;
+  
+}
+
+ #btn{
+    min-height: 50px;
+    width:50%;
+    margin-top: 40px;
+    font-weight: 500;
+    border:2px solid white;
+    font-size: 20px;
+    transition: all 0.4s ease;
+    background-color: transparent;
+  color: #fff;
+ }
+
+ .form h5{
+    padding:10px 20px;
+    font-size: 1.5em;
+ }
+
+ h4{
+    font-size: 1.5em;
+    font-weight: 500;
+ }
+
+.links {
+    margin:20px 30px;
+}
+
+.links a{
+      margin:10px 25px;
+         font-size: 1.5em;
+}
+
+.details{
+      margin:20px 30px;
+      font-size: 1.2em;
+}
+
+.form label{
+font-size: 1.2em;
+}
+
+footer{
+    min-height: 50px;
+    margin-top:40px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    position: relative;
+    bottom:0px;
+    width:100vh;
+ }
+
+ .nav a:hover {
+  color: #f39c12; 
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(243, 156, 18, 0.6);
+}
+
+.skill-badge { 
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-badge:hover {
+  transform: translateY(-5px);
+  background-color: #f39c12;
+  color: #000000; /* Dark text on hover */
+  box-shadow: 0 5px 15px rgba(243, 156, 18, 0.4);
+}
+
+#btn:hover {
+  background-color: #f39c12;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(243, 156, 18, 0.5);
+  transform: scale(1.02);
+}
+
+.navBtn{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top:30px;
+    left:90%;
+    font-size: 2em;
+    opacity: 0;
+}
+.active{
+    opacity: 1;
+    visibility: visible;
+  transform: translateY(0) scale(1);
+  position: fixed;
+}
+
+@media (max-width:900px) {
+    .nav a{
+        opacity: 0;
+    }
+    .navBtn{
+        opacity: 1;
+        position: fixed;
+    }
+    .para{
+        flex-wrap: wrap;
+    }
+    
+}
