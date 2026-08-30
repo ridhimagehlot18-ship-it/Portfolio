@@ -339,5 +339,7 @@ img:hover {
     .para{
         flex-wrap: wrap;
     }
-    
+    footer{
+        text-align: left;
+    }
 }
