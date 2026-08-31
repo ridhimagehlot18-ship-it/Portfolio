@@ -11,15 +11,17 @@
 html {
   scroll-behavior: smooth;
   /* Aapke navbar ki jitni height hai (e.g. 80px ya 100px), utna space de dein */
-  scroll-padding-top: 90px; 
+  scroll-padding-top: 150px; 
 }
 header{
-    height: 200px;
+    min-height: 200px;
 }
 .nav{
     height: 50px;
-    margin:50px 30px;
-    position: fixed;
+    width:100%;
+    padding:50px 30px;
+   position: fixed;
+   
 }
 
 .nav h5{
@@ -36,6 +38,7 @@ header{
     font-size: 1.2em;
     font-weight: 600;
     text-decoration: none;
+    
 } 
 .anchor{
     min-height: 100px;
@@ -103,6 +106,7 @@ img{
     width:500px;
     margin-top:50px;
     margin-left:100px;
+   
     font-size: 1.2em;
     bottom: 50px;
     line-height: 50px;
@@ -248,6 +252,7 @@ img{
  h4{
     font-size: 1.5em;
     font-weight: 500;
+    margin-bottom: 30px;
  }
 
 .links {
