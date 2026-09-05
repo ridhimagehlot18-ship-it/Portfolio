@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ridhimagehlot18-ship-it/Portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/ridhimagehlot18-ship-it/Portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridhimagehlot18-ship-it/Portfolio.git"
+  },
+  "license": "ISC",
+  "author": "RidhimaGehlot",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.3",
+    "nodemon": "^3.1.14"
+  }
+}
