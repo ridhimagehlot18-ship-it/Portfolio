@@ -87,14 +87,17 @@ form.addEventListener("submit", (e)=>{
 submit.addEventListener("click",(e)=>{
     e.preventDefault();
     let user = document.getElementById("uname").value;
+    console.log(user);
     let mail = document.getElementById("mail").value;
+    console.log(mail);
     let text = document.getElementById("msg").value;
+    console.log(text);
     if(user=="" || mail=="" || text=="") {
         alert("fill all details first!");
     }
     else {
         alert("Your message is sent!");
-       
+     
     }
     console.log("click");
 });

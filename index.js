@@ -16,6 +16,7 @@ const connection =  mysql.createConnection({
   password:'itz_ridhima18'
 });
 
-app.post("/user",(req,res)=>{
-    console.log("post req");
+
+app.get("/user",(req,res)=>{
+    res.send("User msg send");
 })
