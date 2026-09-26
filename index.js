@@ -17,6 +17,15 @@ const connection =  mysql.createConnection({
 });
 
 
+app.get("/",(req,res)=>{
+    console.log("welcome");
+})
+
 app.get("/user",(req,res)=>{
-    res.send("User msg send");
+    
+   let {user,mail,text} = req.params;
+   console.log(user.value);
+   console.log(mail);
+   console.log(text);
+   res.send("recieved");
 })
