@@ -3,8 +3,6 @@ const app = express();
 const mysql = require("mysql2");
 app.use(express.urlencoded({extended:true}));
 
-
-
 app.listen("8080",()=>{
     console.log("Server started at port: 8080");
 });
