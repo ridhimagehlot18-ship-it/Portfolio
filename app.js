@@ -81,11 +81,9 @@ document.addEventListener('DOMContentLoaded',()=>{
 let submit = document.querySelector("#btn");
 let form = document.querySelector("form");
 
-form.addEventListener("submit", (e)=>{
-    e.preventDefault();
-});
+
 submit.addEventListener("click",(e)=>{
-    e.preventDefault();
+  
     let user = document.getElementById("uname").value;
     console.log(user);
     let mail = document.getElementById("mail").value;
