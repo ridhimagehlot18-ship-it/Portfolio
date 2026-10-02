@@ -82,16 +82,19 @@
 
          <div class="form">
             <h5>Send a message</h5>
-            <form method="post" action="/user/register"
+
+            <form action="http://localhost:8080/message" method="POST">
+
         <label for="uname">Enter your Name</label><br>
-        <input type="text" placeholder="name" name="user" id="uname">
+        <input type="text" placeholder="name" name="Msg[user]" id="uname">
         <br>
         <label for="mail">Enter your mail</label><br>
-        <input type="email" placeholder="e-mail" name="mail" id="mail">
+        <input type="email" placeholder="e-mail" name="Msg[mail]" id="mail">
         <br>
         <label for="msg">Message</label><br>
-        <input type="text" placeholder="type message" name="text" row="5" cols="20" id="msg"><br>
-        <button id="btn">Send Message</button>
+        <input type="text" placeholder="type message" name="Msg[text]" row="5" cols="20" id="msg">
+        <br>
+        <button type="submit" id="btn">Send Message</button>
        </form>
         </div>
       
