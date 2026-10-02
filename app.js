@@ -94,7 +94,7 @@ submit.addEventListener("click",(e)=>{
         alert("fill all details first!");
     }
     else {
-        // alert("Your message is sent!");
+         alert("Your message is sent!");
      
     }
     console.log("click");
